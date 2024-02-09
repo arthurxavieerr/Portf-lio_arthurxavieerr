@@ -99,7 +99,7 @@ header{
 
 .content .button_mais{
     width: 250px;
-    margin-top: 100px;
+    margin-top: 80px;
     cursor: pointer;
 }
 .content .button_mais span{
@@ -121,16 +121,17 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 75vh;
+    height: auto;
+    margin-top: 180px;
 }
 
 .content_2{
     display: flex;
+    flex-wrap: wrap;
     align-items: start;
     justify-content: center;
     width: 80%;
-    height: 80%;
-    gap: 20px;
+    height: auto;
 }
 .sobre{
     padding: 10px;
@@ -138,7 +139,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    width: 100%;
+    width: 400px;
     height: auto;
     min-height: 250px;
     font-size: 14px;
@@ -146,6 +147,7 @@ header{
     color: #fff;
     background-color: #9EC4BB;
     border-radius: 8px;
+    margin: 20px;
 }
 
 .sobre span{
@@ -169,7 +171,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    width: 100%;
+    width: 400px;
     font-size: 14px;
     font-weight: 400;
     color: #121212;
@@ -177,6 +179,7 @@ header{
     min-height: 250px;
     background-color: #fff;
     border-radius: 8px;
+    margin: 20px;
 }
 .experiencia{
     padding: 10px;
@@ -184,7 +187,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    width: 100%;
+    width: 400px;
     font-size: 14px;
     font-weight: 400;
     color: #ccc;
@@ -192,6 +195,7 @@ header{
     min-height: 250px;
     background-color: #121212;
     border-radius: 8px;
+    margin: 20px;
 }
 #light {
     position: absolute;
@@ -210,6 +214,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 280px;
 }
 
 .content_3{
@@ -233,6 +238,8 @@ header{
     justify-content: center;
     width: 100%;
     height: auto;
+    margin-top: 180px;
+    
 }
 .content_4{
     display: flex;
