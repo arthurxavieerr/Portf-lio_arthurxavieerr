@@ -344,8 +344,17 @@ footer p{
   .flag-wrapper {
     position: relative;
     display: inline-block;
-    
     text-align: center;
+  }
+
+  .flag-wrapper a{
+    text-decoration: none;
+    color: #9EC4BB;
+  }
+
+  .a-1:visited{
+    color: #9EC4BB;
+    text-decoration: none;
   }
   
   .flag {
