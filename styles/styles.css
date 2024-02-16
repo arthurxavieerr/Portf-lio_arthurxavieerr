@@ -98,20 +98,21 @@ header{
 
 
 .content .button_mais{
-    width: 250px;
-    margin-top: 80px;
-    cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
-.content .button_mais span{
-    text-wrap: nowrap;
-    width: 100%;
-    background-color: #9EC4BB;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 300;
-    padding: 10px;
-    border-radius: 50px;
+.content .button_mais button{
+  border: none;
+  background-color: #9EC4BB;
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+
 }
+
 .content .button_mais a{
     color: #fff;
     text-decoration: none;
