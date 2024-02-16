@@ -340,6 +340,11 @@ footer p{
     width: 300px;
     float: right;
   }
+  .direction-r-1 {
+    position: relative;
+    width: 300px;
+    float: right;
+  }
   
   .flag-wrapper {
     position: relative;
@@ -347,6 +352,17 @@ footer p{
     text-align: center;
   }
 
+  .flag-wrapper-2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+
+  .flag-wrapper-2 a{
+    text-decoration: none;
+    color: #9EC4BB;
+  } 
   .flag-wrapper a{
     text-decoration: none;
     color: #9EC4BB;
@@ -356,6 +372,21 @@ footer p{
     color: #9EC4BB;
     text-decoration: none;
   }
+
+  .direction-r:hover .a-1{
+    color: #000;
+  }
+
+  .direction-r:hover .desc p{
+    color: #fff;
+  }
+
+
+  .direction-r:hover span{
+    color: #000;
+  }
+
+  
   
   .flag {
     position: relative;
