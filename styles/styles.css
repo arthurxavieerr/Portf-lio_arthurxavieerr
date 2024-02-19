@@ -346,6 +346,13 @@ footer p{
     width: 300px;
     float: right;
   }
+
+  .direction-l-1 {
+    position: relative;
+    width: 300px;
+    float: left;
+    text-align: right;
+  }
   
   .flag-wrapper {
     position: relative;
@@ -377,7 +384,9 @@ footer p{
   .direction-r:hover .a-1{
     color: #000;
   }
-
+  .desc i{
+    color: #fff;
+  }
   .direction-r:hover .desc p{
     color: #fff;
   }
@@ -387,7 +396,18 @@ footer p{
     color: #000;
   }
 
-  
+  .direction-l:hover .a-1{
+    color: #000;
+  }
+
+ .direction-l:hover .desc p{
+    color: #fff;
+  }
+
+
+  .direction-l:hover span{
+    color: #000;
+  }
   
   .flag {
     position: relative;
