@@ -385,7 +385,7 @@ footer p{
     color: #000;
   }
   .desc i{
-    color: #fff;
+    color:rgb(80, 80, 255);
   }
   .direction-r:hover .desc p{
     color: #fff;
@@ -444,7 +444,7 @@ footer p{
     margin-top: -10px;
     background: #fff;
     border-radius: 10px;
-    border: 4px solid #9EC4BB;
+    border: 4px solid cornflowerblue;
     z-index: 10;
   }
   
